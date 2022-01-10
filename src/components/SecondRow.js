@@ -11,7 +11,11 @@ const Box = styled.td`
     background-color: white;
     width: 100px;
     height: 105px;
-    cursor: pointer
+    cursor: pointer;
+
+    &:hover {
+        background-color: lightblue;
+    }
     `
 
 const SecondRow = () => {
