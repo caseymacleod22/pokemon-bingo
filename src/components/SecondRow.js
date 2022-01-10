@@ -4,13 +4,14 @@ import styled from 'styled-components'
 const Container = styled.table`
     background-color: red;
 `
+
 const Box = styled.td`
     background-color: black;
     width: 100px;
     height: 105px;
-`
+    `
 
-const TopRow = () => {
+const SecondRow = () => {
     return (
         <Container>
             <Box />
@@ -22,5 +23,4 @@ const TopRow = () => {
     )
 }
 
-export default TopRow
-
+export default SecondRow

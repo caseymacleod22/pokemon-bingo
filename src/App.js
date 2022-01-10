@@ -1,8 +1,12 @@
 import TopRow from "./components/TopRow";
+import SecondRow from "./components/SecondRow";
 
 function App() {
   return (
-    <TopRow />
+    <div>
+        <TopRow />
+        <SecondRow />
+    </div>
   )
 }
 
