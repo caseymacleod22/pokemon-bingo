@@ -1,8 +1,8 @@
+import TopRow from "./components/TopRow";
+
 function App() {
   return (
-    <h1>
-      Ironmon Bingo
-    </h1>
+    <TopRow />
   )
 }
 
