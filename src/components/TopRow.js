@@ -2,14 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Container = styled.table`
-    background-color: red;
+    background-color: black;
     margin-left: auto;
     margin-right: auto;
 `
 const Box = styled.td`
-    background-color: black;
+    background-color: white;
     width: 100px;
     height: 105px;
+    cursor: pointer;
 `
 
 const TopRow = () => {
