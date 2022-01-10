@@ -1,30 +1,32 @@
 import React from 'react'
 import styled from 'styled-components'
+import Box from './Box'
+import { boxPlaceHolder } from '../data'
 
 const Container = styled.table`
     background-color: black;
     margin-left: auto;
     margin-right: auto;
 `
-const Box = styled.td`
-    background-color: white;
-    width: 100px;
-    height: 105px;
-    cursor: pointer;
-
-    &:hover {
-        background-color: lightblue;
-    }
-`
 
 const TopRow = () => {
     return (
         <Container>
-            <Box />
-            <Box />
-            <Box />
-            <Box />
-            <Box />
+            {boxPlaceHolder.map((item) => (
+                <Box item={item} key={item.id}/>
+            ))}
+            {boxPlaceHolder.map((item) => (
+                <Box item={item} key={item.id}/>
+            ))}
+            {boxPlaceHolder.map((item) => (
+                <Box item={item} key={item.id}/>
+            ))}
+            {boxPlaceHolder.map((item) => (
+                <Box item={item} key={item.id}/>
+            ))}
+            {boxPlaceHolder.map((item) => (
+                <Box item={item} key={item.id}/>
+            ))}
         </Container>
     )
 }
