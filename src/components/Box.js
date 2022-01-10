@@ -19,7 +19,7 @@ const Image = styled.img`
     height: 70%;
 `
 
-const Name = styled.p`
+const Name = styled.h3`
     color: blue;
     font-size: 10px;
     text-align: center;
