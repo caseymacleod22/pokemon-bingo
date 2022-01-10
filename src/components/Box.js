@@ -4,6 +4,11 @@ const Container = styled.td`
     background-color: white;
     height: 105px;
     width: 105px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: lightyellow;
+    }
 `
 
 const Image = styled.img`
