@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import styled from 'styled-components'
 
 const Container = styled.td`
@@ -27,8 +28,16 @@ const Name = styled.h3`
 `
 
 const Box = ({item}) => {
+    const [boxColor, setBoxColor] = useState('white')
+    const handleClick = () => {
+        if(boxColor === 'white') {
+            setBoxColor('lightyellow')
+        } else {
+            setBoxColor('white')
+        }
+    }
     return (
-        <Container>
+        <Container style={{background:boxColor}}onClick={handleClick}>
             <Image src={item.img} />
             <Name>{item.name}</Name>
         </Container>
