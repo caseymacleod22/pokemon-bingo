@@ -14,12 +14,12 @@ const Container = styled.td`
 `
 
 const FreeSpace = () => {
-    const [boxColor, setBoxColor] = useState('white')
+    const [boxColor, setBoxColor] = useState('')
     const handleClick = () => {
-        if(boxColor === 'white') {
+        if(boxColor === '') {
             setBoxColor('lightyellow')
         } else {
-            setBoxColor('white')
+            setBoxColor('')
         }
     }
     return (
