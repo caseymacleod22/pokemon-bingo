@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 
 const Container = styled.td`
@@ -14,8 +14,16 @@ const Container = styled.td`
 `
 
 const FreeSpace = () => {
+    const [boxColor, setBoxColor] = useState('white')
+    const handleClick = () => {
+        if(boxColor === 'white') {
+            setBoxColor('lightyellow')
+        } else {
+            setBoxColor('white')
+        }
+    }
     return (
-        <Container>
+        <Container style={{background:boxColor}}onClick={handleClick}>
             FREE SPACE
         </Container>
     )
