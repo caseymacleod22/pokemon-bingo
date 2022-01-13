@@ -21,10 +21,10 @@ const Image = styled.img`
 `
 
 const Name = styled.h3`
-    /* color: blue;
+    color: blue;
     font-size: 10px;
     text-align: center;
-    padding-bottom: 0; */
+    padding-bottom: 0;
 `
 
 const Box = ({item}) => {
