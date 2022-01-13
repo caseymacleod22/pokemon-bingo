@@ -6,6 +6,7 @@ const Container = styled.h1`
     display: flex;
     align-items: center;
     justify-content: center;
+    color: pink;
 `
 
 const Header = () => {
