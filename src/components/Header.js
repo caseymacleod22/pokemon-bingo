@@ -13,7 +13,7 @@ const Container = styled.h1`
 const Header = () => {
     return (
         <Container>
-            Ironmon Bingo
+            {/* Ironmon Bingo */}
         </Container>
     )
 }
