@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Box from './Box'
 import { boxPlaceHolder } from '../data'
-// import FreeSpace from './FreeSpace'
+import FreeSpace from './FreeSpace'
 
 const Container = styled.table`
     background-color: black;
