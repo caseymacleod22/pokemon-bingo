@@ -7,7 +7,7 @@ import FreeSpace from './FreeSpace'
 const Container = styled.table`
     background-color: black;
     margin-left: auto;
-    /* margin-right: auto; */
+    margin-right: auto;
 `
 
 const ThirdRow = () => {
