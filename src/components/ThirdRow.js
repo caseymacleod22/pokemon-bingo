@@ -30,4 +30,4 @@ const ThirdRow = () => {
     )
 }
 
-// export default ThirdRow
+export default ThirdRow
